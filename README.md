@@ -14,3 +14,10 @@
 
 * How does the topic of Spring Boot relate to Distibuted Systems?
 * What are reasons to not do Distributed Systems?
+
+## Session 20-Mar-2023 Intro to Cloud-based IDEs and Container Technology
+
+### Homework:
+
+* Get a github or gitlab id. A public one, please :-)
+* Get a docker id. https://hub.docker.com/signup
