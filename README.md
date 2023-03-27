@@ -32,7 +32,7 @@ _The student understands the concepts and use cases of container technology and 
 
 * Create or get yourself a Docker Id (https://www.docker.com)
 * Get a github or gitlab id. A public one, please :-)
-* Do the container lab given at: https://hsexd.new.trainings.nvtc.io/
+* Do the container lab given at: https://hsexd.new.trainings.nvtc.io/ (up until Networks)
 * Create a docker-compose file to start all 3 containers in the exercise
 * Optional: Externalize
 
@@ -56,6 +56,6 @@ _The student understands the concepts and use cases of container technology and 
 
 ### Exercises/Lab task
 
-* Finish the container lab given at: https://hsexd.trainings.nvtc.io/
+* Finish the container lab given at: https://hsexd.new.trainings.nvtc.io/ (up until Networks)
 * Create a docker-compose file to start all 3 containers in the exercise
 * Optional: Externalize the database storage to the filesystem outside of the container
