@@ -14,10 +14,39 @@
 
 * How does the topic of Spring Boot relate to Distibuted Systems?
 * What are reasons to not do Distributed Systems?
+* How does Function as a Service work and what are sample uses cases?
 
 ## Session 20-Mar-2023 Intro to Cloud-based IDEs and Container Technology
 
-### Homework:
+* What are containers and how do they work?
+* Containers vs. VMs
+* History of containers and rise of Docker
+* Docker concepts: daemon, hub, dockerfile, CLI
+* Running containers with various options
 
+### Objectives
+
+_The student understands the concepts and use cases of container technology and is able to describe them. The first exercise is to pull sample images from an image registry (e.g. Docker Hub) and interact with them (run, expose port, execute shell, cleanup etc). After that the student can show how to build a custom image via Dockerfile and push it to a registry for others to access. Complete the exercises handed out via URL._
+
+### Exercises/Lab task
+
+* Create or get yourself a Docker Id (https://www.docker.com)
+* Do the container lab given at: https://hsexd.trainings.nvtc.io/
 * Get a github or gitlab id. A public one, please :-)
-* Get a docker id. https://hub.docker.com/signup
+
+### Review questions
+
+* "WHY" Containers? List advantages/disadvantages ..
+* What is the difference between a container and a VM? List 3 criteria
+* Which technologies led to the evolution of docker (and why)? 
+* What is the difference between a docker daemon and the docker hub? 
+* What is the difference between docker run, docker pull and docker start?
+* Which command transitions from a container instance to an image?
+* What are the Docker components and describe them?
+* What does docker exec do? Provide a pseudo-code example and explain what it does 
+* Explain the container latest tag
+
+## Session 27-Mar-2023 Docker/Container Wrap-Up & Labs
+
+
+
