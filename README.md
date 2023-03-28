@@ -48,6 +48,8 @@ _The student understands the concepts and use cases of container technology and 
 * What does docker exec do? Provide a pseudo-code example and explain what it does 
 * Explain the container latest tag
 
+![Overview Client - GitPod - GitHub - Docker Hub](pics/gitpod_scope.png)
+
 ## Session 27-Mar-2023 Docker/Container Wrap-Up & Labs
 
 * Docker storage
