@@ -44,7 +44,7 @@ _The student understands the concepts and use cases of container technology and 
 * What is the difference between a docker daemon and the docker hub? 
 * What is the difference between docker run, docker pull and docker start?
 * Which command transitions from a container instance to an image?
-* What are the Docker components and describe them?
+* What are the Docker components and describe them? (Rephrase!)
 * What does docker exec do? Provide a pseudo-code example and explain what it does 
 * Explain the container latest tag
 
