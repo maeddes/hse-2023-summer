@@ -62,9 +62,9 @@ _The student understands the concepts and use cases of container technology and 
 * Create a docker-compose file to start all 3 containers in the exercise
 * Optional: Externalize the database storage to the filesystem outside of the container
 
-## Session 02-April-23 Introduction to Spring Boot
-
 ![Review questions container](pics/blackboard-23-04-02.jpg)
+
+## Session 02-April-23 Introduction to Spring Boot
 
 * Background: Spring Framework - History & components
 * Spring ← → Spring Boot
