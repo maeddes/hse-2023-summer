@@ -36,6 +36,8 @@ _The student understands the concepts and use cases of container technology and 
 * Create a docker-compose file to start all 3 containers in the exercise
 * Optional: Externalize
 
+![Overview Client - GitPod - GitHub - Docker Hub](pics/gitpod_scope.png)
+
 ### Review questions
 
 * "WHY" Containers? List advantages/disadvantages ..
@@ -48,8 +50,6 @@ _The student understands the concepts and use cases of container technology and 
 * What does docker exec do? Provide a pseudo-code example and explain what it does 
 * Explain the container latest tag
 
-![Overview Client - GitPod - GitHub - Docker Hub](pics/gitpod_scope.png)
-
 ## Session 27-Mar-2023 Docker/Container Wrap-Up & Labs
 
 * Docker storage
@@ -61,3 +61,42 @@ _The student understands the concepts and use cases of container technology and 
 * Finish the container lab given at: https://hsexd.new.trainings.nvtc.io/ (up until Networks)
 * Create a docker-compose file to start all 3 containers in the exercise
 * Optional: Externalize the database storage to the filesystem outside of the container
+
+## Session 02-April-23 Introduction to Spring Boot
+
+![Review questions container](pics/blackboard-23-04-02.jpg)
+
+* Background: Spring Framework - History & components
+* Spring ← → Spring Boot
+* Spring Initializr (start.spring.io) & starter dependencies
+* Basic project structure (folders, configuration ..)
+* "Hello, World!" example explained
+* Using Actuator
+
+![Spring Boot Initializr Flow](pics/spring_boot_initializr_flow.png)
+
+### Objectives
+
+The student is able to build and configure an own Spring Boot application from scratch with the IDE of choice. The exercise is to build an own "Hello, World!" application that exposes various - endpoints and is able to execute CRUD operations on the state of the application. Optional: Add logging and testing, configure Actuator.
+
+### Exercises
+
+Application:
+
+* Build your own first Spring Boot Hello, World application at 
+* https://start.spring.io
+* Change name, Java version, build tool, dependencies. Observe changes
+* Use the following deps: Web, Actuator, DevTools
+* Annotate a class with @RestController and expose "some" REST Mappings
+* Experiment with Mappings, e.g. @GetMapping, @PostMapping
+* Pass a parameter via @PathVariable
+
+Helpful Links:
+
+* https://start.spring.io
+* https://www.baeldung.com/spring-requestmapping
+* https://spring.io/guides#getting-started-guides
+* Full tutorial (stuff for next weeks): https://www.baeldung.com/spring-boot-start
+* https://www.gitpod.io/docs/introduction/languages/java
+* https://spring.io/guides/gs/rest-service/ (or basically Spring Guides in general)
+* https://www.baeldung.com/spring-pathvariable (or basically all Baeldung guides)
