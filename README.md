@@ -90,6 +90,7 @@ Application:
 * Annotate a class with @RestController and expose "some" REST Mappings
 * Experiment with Mappings, e.g. @GetMapping, @PostMapping
 * Pass a parameter via @PathVariable
+* Build the application and package into a container image
 
 Helpful Links:
 
