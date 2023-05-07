@@ -64,7 +64,7 @@ _The student understands the concepts and use cases of container technology and 
 
 ![Review questions container](pics/blackboard-23-04-02.jpg)
 
-## Session 02-April-23 Introduction to Spring Boot
+## Session 03-April-23 Introduction to Spring Boot
 
 * Background: Spring Framework - History & components
 * Spring ← → Spring Boot
@@ -101,3 +101,14 @@ Helpful Links:
 * https://www.gitpod.io/docs/introduction/languages/java
 * https://spring.io/guides/gs/rest-service/ (or basically Spring Guides in general)
 * https://www.baeldung.com/spring-pathvariable (or basically all Baeldung guides)
+
+## 10-April No lecture - Easter Monday
+
+## 17-April API and REST
+
+## 24-April REST Recap and Container Build Options
+
+## 01-May No lecture - public holiday
+
+## 08-May Theory lecture - Cloud-Native Software 
+
