@@ -148,6 +148,24 @@ Links:
 
 ## 24-April REST Recap and Container Build Options
 
+* Difference and relation between container and container images
+* Concepts of image layers
+* "docker commit"
+* History of Dockerfile. Initial, multi-stage & BuildKit
+* Building container for Java apps
+* Using Jib, Cloud-Native Buildpacks and Paketo
+
+### Objectives and exercises
+_The student understands the relation between container image and container, how to instantiate a container from an image and how to commit to a new image from an existing container. The exercise is to build the previous Spring Boot application and put it into a container image using various options, e.g. different Dockerfile options, Google JIB, CND, Paketo and more ...? The student is aware and able to describe on a high-level what the different fundamentals of the various approaches are and is able to list advantages and disadvantages._
+
+### Links
+
+* https://docs.docker.com/engine/reference/builder/
+* https://buildpacks.io/
+* https://paketo.io/
+* https://github.com/maeddes/options-galore-container-build/blob/main/walkthrough.adoc
+* https://github.com/GoogleContainerTools/jib
+
 ## 01-May No lecture - public holiday
 
 ## 08-May Theory lecture - Cloud-Native Software 
