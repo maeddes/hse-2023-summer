@@ -106,6 +106,8 @@ Helpful Links:
 
 ## 17-April API and REST
 
+![API](pics/spring_boot_full_and_documented_rest_api_2022_11.png)
+
 * Synchronous communication
 * HTTP and REST
 * Verbs, Resources, Nouns
@@ -147,6 +149,8 @@ Links:
 * Describe in your own words the mapping of REST calls to database (SQL) and CRUD calls
 
 ## 24-April REST Recap and Container Build Options
+
+![Container Build](pics/container_build_options.png)
 
 * Difference and relation between container and container images
 * Concepts of image layers
