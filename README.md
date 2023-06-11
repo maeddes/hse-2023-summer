@@ -174,3 +174,91 @@ _The student understands the relation between container image and container, how
 
 ## 08-May Theory lecture - Cloud-Native Software 
 
+* CAP Theorem
+* Conway's Law
+* Fallacies of distributed computing
+* Domain-Driven Design basics
+* 12-factor application
+* Evolution of applications and deployments: Monolithic -> Service-Oriented Architecture -> Microservices
+* Introduction to serverless and FaaS terminology
+
+### Objectives and exercises
+_The student knows about the evolution of distributed systems (and middleware) and the drivers towards state-of-the-art implementation and deployment. She/he can explain the underlying concepts and theories and put it into practical context. No dedicated exercises for this module. Recap of basics: Spring Boot, Docker, configuration, persistence and messaging._
+
+### Review questions
+
+* "WHY" Cloud-Native Software? What IS Cloud-Native Software?
+* Why "evolution" from a monolithic approach to a distributed approach?
+* How does the CAP Theorem/Conway's Law relate to this?
+* (NO Domain-Driven Design questions)
+* How do the 12-factor application "methodology" relate to the technologies that we covered in this semester? (important)
+* "WHY" is external configuration important in cloud-native software?
+* Where did you see aspects of external configuration in the technologies we used? Provide examples
+
+## 15-May Persistence
+
+* Spring Data
+* Concept of entities and repositories
+* JPA and JDBC basics
+* H2, PostgeSQL, MySQL - configuration via Spring Boot profiles
+* Running databases as Docker images
+
+### Objectives and exercises
+_The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
+
+### Review Questions
+
+* "WHY" persistence? "WHY" persistence frameworks like JPA?
+* Describe the necessary components to build an application with Spring Data? Potentially sketch
+* What does the annotation @Entity do? 
+* How could docker compose help if you have a persistence-based application?
+
+## 22-May Kubernetes 
+
+* Presentation: Cloud Platforms & Kubernetes
+* Kubernetes Background
+* What is CaaS?
+* Cluster & Node Concept
+* Behaviour scenarios of Kubernetes in Action
+* Base API objects: Deployments, ReplicaSets, Pods, Services
+* Intro into kubectl 
+  
+### Objectives and exercises
+_The student understands the requirements and expectations towards cloud platforms and is able to list them. She/he can explain the advantages over standard container operation with Docker. The exercise is to take a sample Spring Boot application and walk through the steps to containerize and deploy to Kubernetes. The student is aware about various options for local and remote Kubernetes options._
+
+### Review questions
+
+* Please write 100 lines of YAML Code :)
+* Explain the relation of "some" of the 12 factors in relation to Kubernetes
+* Explain the core principe of Kubernetes in own words. "Why" Kubernetes?
+* What is pod? What is a service?
+* Which kind of Kubernetes providers do you know? Can they be grouped somehow?
+
+### Links
+
+* https://docs.docker.com/engine/reference/commandline/compose_build/
+* https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/
+* https://www.baeldung.com/spring-value-annotation
+
+### Links - Kubernetes Options
+
+* https://github.com/learnk8s/free-kubernetes (Overview)
+
+* https://www.katacoda.com/courses/kubernetes/playground (web-based)
+* https://training.play-with-kubernetes.com/ (web-based, broken?)
+
+* https://kind.sigs.k8s.io/docs/user/quick-start/ (local)
+* https://minikube.sigs.k8s.io/docs/ (local)
+* https://docs.docker.com/get-started/kube-deploy/ (local)
+* https://k3s.io/ (local)
+* https://microk8s.io/ (local)
+
+* https://aws.amazon.com/de/education/awseducate/ (Student)
+* https://azure.microsoft.com/en-us/free/students/ (Student)
+
+## 29-May No lecture - public holiday
+
+## 05-July Kubernetes and resilience patterns
+
+## 12-July Frontend / HTTP Client
+
