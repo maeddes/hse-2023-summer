@@ -197,6 +197,8 @@ _The student knows about the evolution of distributed systems (and middleware) a
 
 ## 15-May Persistence
 
+![Recap 12-factor](pics/12-factor.jpg)
+
 * Spring Data
 * Concept of entities and repositories
 * JPA and JDBC basics
@@ -261,4 +263,6 @@ _The student understands the requirements and expectations towards cloud platfor
 ## 05-July Kubernetes and resilience patterns
 
 ## 12-July Frontend / HTTP Client
+
+![Recap Kubernetes](pics/K8s-12factor.jpg)
 
