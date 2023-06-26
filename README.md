@@ -56,6 +56,8 @@ _The student understands the concepts and use cases of container technology and 
 * Docker networks
 * docker-compose
 
+![Docker and Compose](pics/docker_run_vs_compose.excalidraw.png)
+
 ### Exercises/Lab task
 
 * Finish the container lab given at: https://hsexd.new.trainings.nvtc.io/ (up until Networks)
@@ -205,6 +207,8 @@ _The student knows about the evolution of distributed systems (and middleware) a
 * H2, PostgeSQL, MySQL - configuration via Spring Boot profiles
 * Running databases as Docker images
 
+![Spring Data](pics/spring_data_overview.png)
+
 ### Objectives and exercises
 _The student is able to build a Spring Boot application (or extend an existing one) with Spring Data configuration. The exercise is to create an application, which performs CRUD operations on a database backend. The database can either be in-memory (H2) or a (containerized) PostgreSQL. Optional: Provide a docker-compose file to stand up a multi-container environment with application and database._
 
@@ -216,6 +220,8 @@ _The student is able to build a Spring Boot application (or extend an existing o
 * How could docker compose help if you have a persistence-based application?
 
 ## 22-May Kubernetes 
+
+![Kubernetes Simple](pics/kubernetes_simple_objects.excalidraw.png)
 
 * Presentation: Cloud Platforms & Kubernetes
 * Kubernetes Background
@@ -265,4 +271,5 @@ _The student understands the requirements and expectations towards cloud platfor
 ## 12-July Frontend / HTTP Client
 
 ![Recap Kubernetes](pics/K8s-12factor.jpg)
+![Full landscape](pics/full_landscape_docker_and_microservices.excalidraw.png)
 
