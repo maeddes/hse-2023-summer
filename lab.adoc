@@ -1,0 +1,45 @@
+= Lab Summary
+
+image::https://github.com/maeddes/hse-2022-summer/blob/main/pics/big_picture_project.png[Big Pciture]
+
+== Todo List Application
+
+Exchange Element: TodoItem
+
+----
+String todo; (use this as in id)
+int priority;
+----
+
+
+=== API Side:
+
+Base URL: /todos/
+
+----
+GET /todos/ (returns a list of todos)
+GET /todos/{name} (returns a todo if exists)
+POST /todos/ (send/receive JSON object)
+DELETE  /todos/{name} (deletes a todo if exists)
+PUT /todos/ (send/receive JSON object., e.g. can change priority)
+----
+
+=== Backend side:
+* Provide the REST API implementation (if possible with some form of documenation)
+* Provide a persistence mechanism (persist Todos in a database)
+* Provide a database
+* Provide a docker build mechanism (docker-compose for application and database)
+* Indicate where the exposed port is configured
+
+Language/Framework recommendations: Java/Kotlin(Spring Boot, Micronaut, Quarkus), Python, .net, Go, node.js, C 
+
+=== Frontend side:
+* Implement a REST Client to talk to the REST API of the backend
+* Render functionality in a (web) UI
+* Indicate how to configure the backend URL
+
+Language/Framework recommendations: Vue, Angular, React, PHP ...
+
+Potential options for groups with 3 people:
+* Provide an example with different protocols, e.g. REST and GraphQL
+* Implement authentication and multi-tenency (todos per user)
