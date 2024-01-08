@@ -114,7 +114,7 @@ Helpful Links:
 * Synchronous communication
 * HTTP and REST
 * Verbs, Resources, Nouns
-* Evolution, Richardson Maturity Model
+* Evolution, Richardson Maturity Model (except Level 3)
 * CRUD Operations
 * Building a REST API with Spring (Boot)
 * Building a data model with REST
@@ -150,6 +150,15 @@ Links:
 * Describe the concepts of Verbs and Nouns
 * When is an invocation idempotent and safe? What does it mean? Provide examples
 * Describe in your own words the mapping of REST calls to database (SQL) and CRUD calls
+
+  Maturity check:
+
+GET http://localhost/pleaseExecuteATask - Get vs. execute, no noun given, execute as pseudo verb in actual URL
+POST http://localhost/tasks/ <properties of the task> -> Level 2
+PUT http://localhost/people/123/age/25 -> looks ok
+POST http://localhost/people/add/matthias/haeussler -> Level 1/2
+POST http://localhost/people/matthias/haeussler -> better :)
+DELETE http://localhost/animals/23 -> Level 2
 
 ## 24-April REST Recap and Container Build Options
 
