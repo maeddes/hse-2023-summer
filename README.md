@@ -49,6 +49,7 @@ _The student understands the concepts and use cases of container technology and 
 * What are the Docker components and describe them? (Rephrase!)
 * What does docker exec do? Provide a pseudo-code example and explain what it does 
 * Explain the container latest tag
+* Explain 3 factors of the 12-factors in the context of containers. Explain in detail how they are realized!
 
 ## Session 27-Mar-2023 Docker/Container Wrap-Up & Labs
 
